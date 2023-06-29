@@ -55,3 +55,13 @@ flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
 ```
+
+## Make API Requests to Twitter
+
+```
+npm install axios
+```
+
+Replace 'YOUR_RAPIDAPI_KEY' in the headers object with your actual RapidAPI key in the `src/ApiComponent.js` file.
+
+
