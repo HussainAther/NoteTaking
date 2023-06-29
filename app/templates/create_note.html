@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Note</title>
+</head>
+<body>
+    <h1>Create Note</h1>
+    <form method="POST" action="{{ url_for('create_note') }}" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        {{ form.title.label }} {{ form.title }}
+        {{ form.content.label }} {{ form.content }}
+        {{ form.file.label }} {{ form.file }}
+        {{ form.submit }}
+    </form>
+</body>
+</html>
+
