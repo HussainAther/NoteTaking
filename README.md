@@ -66,7 +66,7 @@ npm install axios
 
 Replace 'YOUR_RAPIDAPI_KEY' in the headers object with your actual RapidAPI key in the `src/ApiComponent.js` file.
 
-### React commands
+## React commands
 
 * `npm start` or `yarn start`: Starts the development server and opens your app in the browser.
 * `npm run build` or `yarn build`: Builds the app for production and creates a build directory with optimized and minified files.
