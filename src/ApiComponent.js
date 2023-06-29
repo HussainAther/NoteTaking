@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+const axios = require('axios');
+
 const ApiComponent = () => {
   const [data, setData] = useState([]);
 
@@ -29,6 +31,8 @@ const ApiComponent = () => {
     </div>
   );
 };
+
+const query = 'Elon';
 
 async function getTwitterData(query) {
   const options = {

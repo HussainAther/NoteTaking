@@ -60,11 +60,27 @@ flask db upgrade
 
 ## Make API Requests to Twitter
 
+To make API requests to Twitter, we need to use `axios`:
+
 ```
 npm install axios
 ```
 
 Replace 'YOUR_RAPIDAPI_KEY' in the headers object with your actual RapidAPI key in the `src/ApiComponent.js` file.
+
+Then, change the 'query' variable to what you'd like to search for:
+
+```
+const query = 'Elon';
+
+getTwitterData(query)
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('An error occurred:', error);
+  });
+```
 
 ## React commands
 
