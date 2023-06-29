@@ -1,5 +1,7 @@
 # Note Taking
 
+Hosted on Glitch: https://agate-lucky-stick.glitch.me
+
 Users can register, log in, create notes, and upload files associated with those notes.
 
 It's highly recommended to run the project in a virtual environment. Create one with the following:
